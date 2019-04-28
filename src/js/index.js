@@ -63,8 +63,10 @@ const vm = new Vue({
           }     
         }, 400);
       }else {
-        alert('Perdu');
-        vm.newGame();
+        if (vm.tmp_sequence[0]) {
+          alert('Perdu');
+          vm.newGame();
+        }
       }
     }
   }
