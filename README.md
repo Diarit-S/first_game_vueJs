@@ -1,3 +1,3 @@
 # first_game_vueJs
 
-Play the game : play-the-sequence.netlify.com
+Play the game : https://play-the-sequence.netlify.com/
