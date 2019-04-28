@@ -1,5 +1,24 @@
-.carreRouge {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.carre {
+  display: inline-block;
+  width:200px;
+  height:200px;
+  background-color:#ccc;
+  cursor:pointer;
+}
+
+.bleu {
+  background-color:blue;
+}
+.rouge {
+  background-color:red;
+}
+.vert {
+  background-color:green;
+}
+.jaune {
+  background-color:yellow;
 }

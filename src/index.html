@@ -10,7 +10,22 @@
 </head>
 <body>
   <div id="app">
-    <div :class="square"></div>
+    <h1>PLAY THE SEQUENCE</h1>
+    <hr>
+    <button @click="newGame">
+      NEW GAME
+    </button>
+    <hr>
+      <h2>Niveau : {{count}}</h2>
+    <hr>
+    <div>
+      <span class="carre" @click="selectSquare('hautDroite')" :class=" { rouge : hautDroite }"></span>
+      <span class="carre" @click="selectSquare('hautGauche')" :class=" { bleu : hautGauche } "></span>
+    </div>
+    <div>
+      <span class="carre" @click="selectSquare('basGauche')" :class=" { vert : basGauche }"></span>
+      <span class="carre" @click="selectSquare('basDroite')" :class=" { jaune : basDroite }"></span>
+    </div>
   </div>
 </body>
 </html>
