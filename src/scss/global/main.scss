@@ -7,6 +7,17 @@ body {
   text-align: center;
 }
 
+.button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(72, 151, 161);
+  color: white;
+  box-shadow: 2px 2px 5px 0px #656565;
+  padding: 10px;
+  font-weight: 600;
+}
+
 .carre {
   display: inline-block;
   width:200px;
